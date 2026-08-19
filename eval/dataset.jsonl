@@ -1,0 +1,20 @@
+{"id": 1, "query": "finition bois pour une pièce de vie", "expected": ["Hirati", "Noa"], "intent": "aspect_bois", "difficulty": "easy"}
+{"id": 2, "query": "ambiance terracotta cozy pour cuisine nord sombre, quelque chose de chaleureux et naturel", "expected": ["Sérac", "Osmose", "Terramater"], "intent": "ambiance_chaleureuse", "difficulty": "hard"}
+{"id": 3, "query": "sol extérieur terrasse moderne minéral gris", "expected": ["Teranga", "Tiber", "Performance"], "intent": "exterieur_gris", "difficulty": "medium"}
+{"id": 4, "query": "carrelage effet résine sobre et contemporain, surface mate", "expected": ["Vertige", "Zen", "Resin"], "intent": "effet_resine", "difficulty": "medium"}
+{"id": 5, "query": "pierre calcaire ancienne pour salon lumineux et discret", "expected": ["Sérac", "Tiber", "Terramater"], "intent": "pierre_ancienne", "difficulty": "medium"}
+{"id": 6, "query": "carrelage artisanal terre cuite pour cuisine chaleureuse", "expected": ["Terramater", "ArtCraft", "Osmose"], "intent": "artisanal_terre_cuite", "difficulty": "medium"}
+{"id": 7, "query": "revêtement mural effet béton moderne avec décors design", "expected": ["Cementum Wall", "Vertige", "Zen"], "intent": "mur_betone_deco", "difficulty": "hard"}
+{"id": 8, "query": "tomettes hexagonales décoratives pour cuisine", "expected": ["Osmose", "Terramater", "ArtCraft"], "intent": "hexagonale_deco", "difficulty": "medium"}
+{"id": 9, "query": "pierre travertin beige pour terrasse extérieure antidérapante", "expected": ["Tiber", "Sérac", "Teranga"], "intent": "travertin_exterieur", "difficulty": "medium"}
+{"id": 10, "query": "sol technique haute fréquentation pour boutique ou restaurant", "expected": ["Performance", "Teranga", "Cementum Wall"], "intent": "technique_trafic", "difficulty": "medium"}
+{"id": 11, "query": "ciment vieilli avec craquelures pour ambiance industrielle", "expected": ["Teranga", "Zen", "Cementum Wall"], "intent": "industriel_craquele", "difficulty": "hard"}
+{"id": 12, "query": "bois naturel hyper réaliste avec veines et nœuds", "expected": ["Hirati", "Noa"], "intent": "bois_realiste", "difficulty": "easy"}
+{"id": 13, "query": "effet résine colorée pour architecture contemporaine avec profondeur", "expected": ["Vertige", "Resin", "Zen"], "intent": "resine_contemporaine", "difficulty": "medium"}
+{"id": 14, "query": "carrelage écologique avec matière recyclée et savoir-faire artisanal italien", "expected": ["Terramater", "ArtCraft", "Osmose"], "intent": "ecologique_artisanal", "difficulty": "hard"}
+{"id": 15, "query": "pierre de Bordeaux Renaissance beige avec reflets orangés", "expected": ["Sérac", "Tiber"], "intent": "pierre_historique", "difficulty": "hard"}
+{"id": 16, "query": "ciment avec craquelures et grand format 120x120", "expected": ["Teranga", "Resin"], "intent": "ciment_grand_format", "difficulty": "medium"}
+{"id": 17, "query": "décoration murale florale ou géométrique artisanale", "expected": ["Cementum Wall", "ArtCraft", "Terramater"], "intent": "deco_murale", "difficulty": "hard"}
+{"id": 18, "query": "bois clair type lin ou neutre pour cuisine lumineuse", "expected": ["Hirati", "Noa"], "intent": "bois_clair", "difficulty": "medium"}
+{"id": 19, "query": "travertin romain avec aspérités et tons beige chaleureux", "expected": ["Tiber", "Sérac", "Terramater"], "intent": "travertin_romain", "difficulty": "medium"}
+{"id": 20, "query": "sol garage ou boutique technique épaisseur 14 mm", "expected": ["Performance", "Teranga"], "intent": "technique_epais", "difficulty": "medium"}
