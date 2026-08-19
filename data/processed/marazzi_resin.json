@@ -1,0 +1,18 @@
+{
+  "marque": "Marazzi",
+  "collection": "Resin",
+  "url_source": "https://www.marazzi.fr/collections/resin-collecte/",
+  "image_url": "https://www.marazzi.fr/app/uploads/collezioni/resin/marazzi_resin_001.jpg",
+  "effets": ["Béton", "Résine"],
+  "utilisations": ["Sol Intérieur", "Mur"],
+  "technologie": "Grès cérame émaillé",
+  "formats": ["60x120 cm ép. 9 mm", "120x120 cm ép. 9 mm"],
+  "couleurs": ["Bianco", "Grigio", "Beige", "Azzurro", "Avio", "Verde Chiaro", "Verderame", "Avana", "Rosa Antico", "Verde Salvia", "Rosso Mattone"],
+  "finition": "Natural mate (rectifié)",
+  "antiderapant": false,
+  "accessoires": [],
+  "certifications": ["Résistance au gel", "Résistance à l'abrasion profonde", "Antidérapant R9", "DCOF >= 0.42"],
+  "description_marketing": "Comme une matière qui absorbe la lumière, Resin interprète la résine en grès cérame avec une esthétique essentielle et contemporaine. Disponible en 11 teintes unies – Bianco, Grigio, Beige, Azzurro, Avio, Verde Chiaro, Verderame, Avana, Rosa Antico, Verde Salvia et Rosso Mattone – aux formats 60x120 et 120x120, en surface mate. Pensée pour sols et revêtements, elle définit des espaces coordonnés et actuels, à l'allure nette et à la présence chromatique équilibrée.",
+  "argument_design": "Effet résine sobre contemporain, 11 teintes unies chromatiquement équilibrées (du Bianco lumineux au Rosso Mattone chaleureux en passant par les verts Avio/Verde), surface mate qui absorbe la lumière, formats grands pour espaces coordonnés",
+  "destinations_suggerees": ["Cuisine", "Salle de bain", "Salon séjour", "Chambre à coucher"]
+}
