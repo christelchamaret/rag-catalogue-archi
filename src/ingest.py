@@ -55,6 +55,7 @@ def build_document(c: dict) -> Document:
             "collection": c["collection"],
             "marque": c["marque"],
             "url_source": c.get("url_source", ""),
+            "image_url": c.get("image_url", ""),
             "effets": ", ".join(c.get("effets", [])),
             "couleurs": ", ".join(c.get("couleurs", [])),
             "formats": ", ".join(c.get("formats", [])),
