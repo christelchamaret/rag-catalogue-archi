@@ -1,12 +1,32 @@
 """Retrieval : cherche dans ChromaDB et génère une recommandation LLM."""
+import os
 import sys
+import logging
+import warnings
 from pathlib import Path
+
+os.environ["ANONYMIZED_TELEMETRY"] = "False"
+warnings.filterwarnings("ignore")
+for _logger in ("chromadb", "chromadb.telemetry", "huggingface_hub", "posthog", "langchain_core"):
+    logging.getLogger(_logger).setLevel(logging.ERROR)
+try:
+    from langchain_core._api.deprecation import LangChainDeprecationWarning
+    warnings.filterwarnings("ignore", category=LangChainDeprecationWarning)
+except Exception:
+    pass
+
 from dotenv import load_dotenv
 from langchain_mistralai import MistralAIEmbeddings, ChatMistralAI
 from langchain_community.vectorstores import Chroma
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
+
+try:
+    import chromadb
+    _CHROMA_SETTINGS = chromadb.config.Settings(allow_anonymous_telemetry=False, anonymized_telemetry=False)
+except Exception:
+    _CHROMA_SETTINGS = None
 
 load_dotenv()
 
@@ -43,11 +63,14 @@ def format_docs(docs):
 
 def search(query: str, k: int = 5):
     embeddings = MistralAIEmbeddings(model="mistral-embed")
-    vectordb = Chroma(
+    kwargs = dict(
         persist_directory=str(CHROMA_DIR),
         embedding_function=embeddings,
         collection_name=COLLECTION_NAME,
     )
+    if _CHROMA_SETTINGS is not None:
+        kwargs["client_settings"] = _CHROMA_SETTINGS
+    vectordb = Chroma(**kwargs)
     return vectordb.similarity_search_with_relevance_scores(query, k=k)
 
 

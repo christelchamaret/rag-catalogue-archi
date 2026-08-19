@@ -1,11 +1,28 @@
 """Ingestion : lit les JSON de data/processed, embeddings Mistral, stockage ChromaDB."""
+import os
 import json
 import glob
+import warnings
 from pathlib import Path
+
+os.environ["ANONYMIZED_TELEMETRY"] = "False"
+warnings.filterwarnings("ignore")
+try:
+    from langchain_core._api.deprecation import LangChainDeprecationWarning
+    warnings.filterwarnings("ignore", category=LangChainDeprecationWarning)
+except Exception:
+    pass
+
 from dotenv import load_dotenv
 from langchain_mistralai import MistralAIEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_core.documents import Document
+
+try:
+    import chromadb
+    _CHROMA_SETTINGS = chromadb.config.Settings(allow_anonymous_telemetry=False, anonymized_telemetry=False)
+except Exception:
+    _CHROMA_SETTINGS = None
 
 load_dotenv()
 
@@ -67,12 +84,15 @@ def main():
     if CHROMA_DIR.exists():
         import shutil
         shutil.rmtree(CHROMA_DIR)
-    Chroma.from_documents(
+    kwargs = dict(
         documents=docs,
         embedding=embeddings,
         persist_directory=str(CHROMA_DIR),
         collection_name=COLLECTION_NAME,
     )
+    if _CHROMA_SETTINGS is not None:
+        kwargs["client_settings"] = _CHROMA_SETTINGS
+    Chroma.from_documents(**kwargs)
     print(f"\n✅ {len(docs)} collections indexées dans {CHROMA_DIR}")
 
 
