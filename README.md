@@ -107,7 +107,7 @@ rag-catalogue-archi/
 
 2. **Charte graphique TRAIT** : UI Streamlit applique la charte officielle (Noir Profond `#1A1A1A` + Or Champagne `#C9A961` + Garamond), avec cartes produits + photos + recommandation LLM argumentée.
 
-3. **Souveraineté data** : 100% Mistral AI (pas OpenAI) — argument défendable en entretien pour postes IA en grands comptes français.
+3. **Souveraineté data** : 100% Mistral AI (pas OpenAI) 
 
 ## Auteur
 
@@ -115,6 +115,6 @@ rag-catalogue-archi/
 
 - 16 ans R&D en IA/traitement d'image/vidéo chez Technicolor & Interdigital (40+ brevets, supervision multi-site 25 personnes, productisation POC IA pour effets spéciaux)
 - Architecte d'intérieur depuis 2021 (Trait de Couleur)
-- Fondatrice TRAIT (2026) — offre de formation IA pour les métiers de l'architecture
+- Fondatrice TRAIT (2026) — offre de formation et infrastructure IA pour les métiers de l'architecture
 
 Contact : christel@traitdecouleur.fr · https://traitdecouleur.fr
