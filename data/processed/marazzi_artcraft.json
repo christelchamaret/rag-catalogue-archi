@@ -1,0 +1,19 @@
+{
+  "marque": "Marazzi",
+  "collection": "ArtCraft",
+  "sous_famille": "Crogiolo",
+  "url_source": "https://www.marazzi.fr/collections/artcraft-collecte/",
+  "image_url": "https://www.marazzi.fr/app/uploads/collezioni/artcraft/marazzi_crogiolo_artcraft_000.jpg",
+  "effets": ["Artisanal", "Terre Cuite", "Cimentine"],
+  "utilisations": ["Sol Intérieur", "Mur", "Résidentiel", "Commercial", "Accueil"],
+  "technologie": "Grès cérame émaillé",
+  "formats": ["20x20 cm", "21x18,2 cm", "5,3x30 cm"],
+  "couleurs": ["Bianco", "Sabbia", "Argilla", "Cotto", "Calce", "Pomice", "Coccio"],
+  "finition": "Naturelle ou Matt (2 surfaces)",
+  "antiderapant": false,
+  "accessoires": ["Structure Bande 3D (6 variantes)", "Décors Triangoli", "Décors Bolli", "Décors Quadri", "Décors Segni A", "Décors Segni B"],
+  "certifications": ["Résistance au gel", "Résistance à l'abrasion profonde", "Greenguard", "EPD Italy", "LEED Credits", "ISO 14001", "ISO 50001", "ISO 45001", "ISO 9001", "ISO 17889-1", "FDES", "Green Building Council", "GPP", "Declare", "HPD"],
+  "description_marketing": "Artcraft unit mémoire artisanale et précision actuelle dans une collection en grès cérame au caractère décoratif et polyvalent. La gamme comprend les couleurs Bianco, Sabbia, Argilla, Cotto, Calce, Pomice et Coccio, disponibles en surfaces Naturelle et Matt, aux formats 20x20, 21x18,2 et 5,3x30. L'offre est complétée par la structure Bande 3D et par les décors Triangoli, Bolli, Quadri, Segni A et Segni B, pour sols et murs résidentiels, commerciaux et d'accueil.",
+  "argument_design": "Synthèse parfaite entre artisanat et innovation, Artcraft associe la tradition céramique à la recherche esthétique pour des surfaces décoratives au caractère affirmé et au style contemporain. 7 couleurs terreuses artisanales (Bianco, Sabbia, Argilla, Cotto, Calce, Pomice, Coccio), 6 structures 3D Bande, 5 décors géométriques pour personnaliser sols et murs.",
+  "destinations_suggerees": ["Cuisine", "Salle de bain", "Salon séjour", "Restaurants", "Hôtels", "Boutiques"]
+}
