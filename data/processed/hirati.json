@@ -1,0 +1,17 @@
+{
+  "marque": "Novoceram",
+  "collection": "Hirati",
+  "url_source": "https://www.novoceram.fr/carrelage/collections/hirati",
+  "effets": ["Bois"],
+  "utilisations": ["Sol Intérieur", "Sol Extérieur", "Mur"],
+  "technologie": "Grès cérame coloré dans la masse",
+  "formats": ["22,5x90 cm ép. 10 mm", "22,5x90 cm ép. 8 mm"],
+  "couleurs": ["Brun", "Lin", "Neutre"],
+  "finition": "Lisse ou structuré (antidérapant r11 A+B+C)",
+  "antiderapant": true,
+  "accessoires": ["Plinthe Droite 7,2x90 cm"],
+  "certifications": ["DEP", "LEED Compliant", "PEF", "Classement A+", "ISO 14001", "ISO 50001", "ISO 9001"],
+  "description_marketing": "Veines et nœuds réalistes pour un carrelage effet bois contemporain. Hirati reprend l'aspect du parquet bois dans un grès cérame résistant, offrant le charme du bois naturel sans l'entretien.",
+  "argument_design": "Effet bois réaliste, idéal terrasse et intérieur, disponible en version structurée antidérapante pour l'extérieur",
+  "destinations_suggerees": ["Cuisine", "Salle de bain", "Salon séjour", "Terrasse et balcon"]
+}

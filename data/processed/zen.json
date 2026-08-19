@@ -1,0 +1,17 @@
+{
+  "marque": "Novoceram",
+  "collection": "Zen",
+  "url_source": "https://www.novoceram.fr/carrelage/collections/zen",
+  "effets": ["Béton", "Résine"],
+  "utilisations": ["Sol Intérieur", "Mur"],
+  "technologie": "Grès cérame coloré dans la masse",
+  "formats": ["60x60 cm ép. 8,5 mm", "30x60 cm ép. 8,5 mm", "45x45 cm ép. 8,5 mm", "30x30 cm ép. 7,6 mm"],
+  "couleurs": ["Béton", "Cendre", "Graphite", "Lin"],
+  "finition": "Mate avec effet brillant/mat (contraste traces de spatule)",
+  "antiderapant": false,
+  "accessoires": ["Nez de Marche 45x45 et 30x30", "Plinthes Droites 7,2x45 / 7,2x60 / 7,4x30"],
+  "certifications": ["DEP", "LEED Compliant", "PEF", "COV A+", "ISO 14001", "ISO 50001", "ISO 9001", "UPEC U4 P4 E3 C2"],
+  "description_marketing": "Zen s'inspire des sols en résine, la surface est enrichie par un style graphique très léger et élégant qui simule les traces laissées par la spatule, ainsi que par un effet d'interruption de l'uniformité de la surface, obtenu par l'application d'une matière brillante. Ce contraste brillant mat rend la surface de Zen peu encline à dévoiler les traces de saleté et donc particulièrement pratique et performante dans son utilisation, aussi bien dans un contexte résidentiel que commercial.",
+  "argument_design": "Aspect résine contemporain, traces de spatule élégantes, contraste brillant/mat qui masque la saleté, polyvalent résidentiel et commercial",
+  "destinations_suggerees": ["Cuisine", "Salle de bain", "Salon séjour", "Garage"]
+}

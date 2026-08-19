@@ -1,0 +1,17 @@
+{
+  "marque": "Novoceram",
+  "collection": "Performance",
+  "url_source": "https://www.novoceram.fr/carrelage/collections/performance",
+  "effets": ["Pierre", "Béton"],
+  "utilisations": ["Sol Intérieur", "Sol Extérieur"],
+  "technologie": "Grès cérame technique",
+  "formats": ["60x60 cm ép. 14 mm"],
+  "couleurs": ["Evolution Ivoire", "Evolution Gris", "Evolution Plomb", "Pierre Ivoire", "Pierre Gris", "Pierre Plomb", "Pierre Moka", "Ciment Ivoire", "Ciment Gris", "Ciment Plomb", "Ciment Moka"],
+  "finition": "Lisse (U4 P4s E3 C2) ou structuré antidérapant (r11 A+B+C)",
+  "antiderapant": true,
+  "accessoires": [],
+  "certifications": ["DEP", "LEED Compliant", "PEF", "Classement A+", "ISO 14001", "ISO 50001", "ISO 9001"],
+  "description_marketing": "Collection technique pour les zones à forte fréquentation (supermarchés, boutiques, hôtels, restaurants, garages). Grès cérame technique épaisseur 14 mm pour haute résistance. Disponible en deux aspects (Pierre et Ciment), en versions lisse et structuré antidérapant. Couleurs neutres tons ivoire, gris, plomb, moka.",
+  "argument_design": "Carrelage technique haute performance pour zones à fort trafic, grande gamme de coloris pierre et ciment, aspect mat",
+  "destinations_suggerees": ["Restaurants", "Hôtels", "Boutiques", "Garages"]
+}

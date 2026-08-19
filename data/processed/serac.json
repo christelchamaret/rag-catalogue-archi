@@ -1,0 +1,17 @@
+{
+  "marque": "Novoceram",
+  "collection": "Sérac",
+  "url_source": "https://www.novoceram.fr/carrelage/collections/serac",
+  "effets": ["Pierre"],
+  "utilisations": ["Sol Intérieur", "Sol Extérieur", "Mur"],
+  "technologie": "Grès cérame coloré dans la masse, Techtouch",
+  "formats": ["60x120 cm ép. 20 mm", "60x120 cm ép. 9 mm", "60x60 cm ép. 9 mm", "60x60 cm ép. 20 mm", "30x60 cm ép. 9 mm", "10x60 cm ép. 9 mm", "Comp. Mod. ép. 9 mm", "Comp. Mod. ép. 20 mm"],
+  "couleurs": ["Cendre", "Craie", "Naturel"],
+  "finition": "Mate ou structuré antidérapant (r11 A+B+C)",
+  "antiderapant": true,
+  "accessoires": ["Compositions modulaires Opus (Avenio, Brestia, Massilia, Nicea, Carcaso, Divio, Lutetia)", "Bandes Romaines (Aquitania, Domitia)", "Cabochons Insula", "Bordures Castrum"],
+  "certifications": ["DEP", "LEED Compliant", "PEF", "COV A+", "ISO 14001", "ISO 50001", "ISO 9001"],
+  "description_marketing": "Sérac s'inspire d'une pierre de Bordeaux, une pierre calcaire utilisée depuis le Moyen Âge. Elle était au cœur de l'architecture française de la Renaissance, appréciée pour sa texture délicate et son aspect vieilli et compact. 3 couleurs : le Naturel, fidèle à l'apparence originelle de la pierre, se distingue par une teinte beige clair et une grande richesse chromatique. Les Craie et Cendre, ses déclinaisons claire et foncée, atténuent les contrastes tout en conservant les subtils reflets orangés caractéristiques du matériau d'origine.",
+  "argument_design": "Pierre de Bordeaux historique Renaissance, texture délicate vieillie compacte, reflets orangés subtils, riche de compositions modulaires",
+  "destinations_suggerees": ["Cuisine", "Salle de bain", "Salon séjour", "Terrasse et balcon"]
+}

@@ -1,0 +1,17 @@
+{
+  "marque": "Novoceram",
+  "collection": "Vertige",
+  "url_source": "https://www.novoceram.fr/carrelage/collections/vertige",
+  "effets": ["Béton", "Résine"],
+  "utilisations": ["Sol Intérieur"],
+  "technologie": "Grès cérame coloré dans la masse",
+  "formats": ["60x60 cm ép. 8,5 mm", "45x45 cm ép. 8,5 mm"],
+  "couleurs": ["Blanc", "Gris"],
+  "finition": "Mat / brillant (jeu de lumière tridimensionnel)",
+  "antiderapant": true,
+  "accessoires": ["Nez de Marche 60x60 cm", "Plinthe Droite 7,2x45 cm", "Plinthe Droite 7,2x60 cm"],
+  "certifications": ["DEP", "LEED Compliant", "PEF", "COV A+", "ISO 14001", "ISO 50001", "ISO 9001", "UPEC U4 P4 E3 C2"],
+  "description_marketing": "La série Vertige reprend tous les aspects lisses et souples de la résine colorée – une matière tendance très appréciée en architecture contemporaine – pour les proposer dans un grès cérame résistant et performant. La surface du carreau est caractérisée par un jeu de lumière mat/brillant qui apporte beaucoup de profondeur au produit grâce à un effet tridimensionnel.",
+  "argument_design": "Aspect résine lisse et souple, tendance architecture contemporaine, profondeur tridimensionnelle par jeu mat/brillant",
+  "destinations_suggerees": ["Cuisine", "Salle de bain", "Salon séjour", "Garage"]
+}

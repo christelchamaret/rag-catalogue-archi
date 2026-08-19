@@ -1,0 +1,17 @@
+{
+  "marque": "Novoceram",
+  "collection": "Tiber",
+  "url_source": "https://www.novoceram.fr/carrelage/collections/tiber",
+  "effets": ["Pierre", "Travertin"],
+  "utilisations": ["Sol Intérieur", "Sol Extérieur", "Mur"],
+  "technologie": "Grès cérame coloré dans la masse",
+  "formats": ["120x120 cm ép. 9 mm", "60x120 cm ép. 9 mm", "60x90 cm ép. 20 mm", "80x80 cm ép. 20 mm", "80x80 cm ép. 9 mm", "60x60 cm ép. 20 mm", "60x60 cm ép. 9 mm", "30x60 cm ép. 9 mm", "10x60 cm ép. 9 mm", "30x30 cm ép. 7,6 mm", "20x20 cm ép. 9 mm", "Comp. Mod. ép. 9 mm", "Comp. Mod. ép. 20 mm"],
+  "couleurs": ["Light", "Natural", "Naturel"],
+  "finition": "Lisse ou structuré antidérapant (r11 A+B+C)",
+  "antiderapant": true,
+  "accessoires": ["Compositions modulaires (Opus Avenio/Brestia/Massilia/Nicea/Carcaso/Divio/Lutetia)", "Bandes Romaines", "Cabochons", "Bordures", "Bord Vieilli"],
+  "certifications": ["DEP", "LEED Compliant", "PEF", "COV A+", "ISO 14001", "ISO 50001", "ISO 9001"],
+  "description_marketing": "Tiber, une collection inspirée du Travertin, l'une des pierres les plus utilisées par les romains. La collection est conçue pour l'extérieur avec les versions en 9 mm d'épaisseur et en 20 mm d'épaisseur (adaptée pour la pose surélevée) ainsi que pour l'intérieur en 9 mm d'épaisseur. Tiber reproduit fidèlement le Travertin dans les tonalités de beige et est parsemé de petites aspérités. Disponible en deux versions : Tiber Natural respectant le dénuançage naturel de cette pierre de caractère et Tiber Light étant une sélection élégante des faces les plus claires. Format XT (80x80, 60x120, 120x120) pour plus d'ampleur.",
+  "argument_design": "Travertin romain historique, tons beige chaleureux, aspérités naturelles, double version (Natural naturelle et Light faces claires), formats XT grand format",
+  "destinations_suggerees": ["Terrasse et balcon", "Piscine", "Cuisine", "Salle de bain"]
+}

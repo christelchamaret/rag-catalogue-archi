@@ -1,0 +1,17 @@
+{
+  "marque": "Novoceram",
+  "collection": "Teranga",
+  "url_source": "https://www.novoceram.fr/carrelage/collections/teranga",
+  "effets": ["Pierre", "Béton"],
+  "utilisations": ["Sol Intérieur", "Sol Extérieur", "Mur"],
+  "technologie": "Grès cérame coloré dans la masse",
+  "formats": ["120x120 cm ép. 9 mm", "80x80 cm ép. 9 mm", "80x80 cm ép. 20 mm"],
+  "couleurs": ["Fer", "Greige", "Ivoire", "Perle"],
+  "finition": "Lisse (r10 A+B) ou structuré antidérapant (r11 A+B+C)",
+  "antiderapant": true,
+  "accessoires": ["Mosaïques 5x5", "Plinthes", "Margelles piscine", "Bords en L", "Grilles"],
+  "certifications": ["DEP", "LEED Compliant", "PEF", "COV A+", "ISO 14001", "ISO 50001", "ISO 9001"],
+  "description_marketing": "Teranga, un carrelage aspect ciment affichant de subtils effets de craquelure, est décliné en 4 coloris ainsi que dans de nouveaux formats dont 80x80 cm, 80x80 cm en 2 cm d'épaisseur, qui vient élargir la variété de formats de la gamme Outdoor Plus et 120x120 cm.",
+  "argument_design": "Aspect ciment avec craquelures subtiles, grande gamme de couleurs neutres (Fer, Greige, Ivoire, Perle), grand format 120x120, gamme complète pour piscine (margelles, bords, grilles)",
+  "destinations_suggerees": ["Terrasse et balcon", "Salon séjour", "Maison", "Jardin", "Piscine"]
+}
