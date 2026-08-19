@@ -221,13 +221,14 @@ html, body, [class*="css"] {
 }
 .reco-llm table th {
   background: var(--trait-noir);
-  color: var(--trait-casse);
+  color: var(--trait-or);
   padding: 0.75rem;
   text-align: left;
   font-family: 'Arial', sans-serif;
   font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  border-bottom: 2px solid var(--trait-or);
 }
 .reco-llm table td {
   padding: 0.75rem;

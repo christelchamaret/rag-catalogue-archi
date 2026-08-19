@@ -74,8 +74,60 @@ def search(query: str, k: int = 5):
     return vectordb.similarity_search_with_relevance_scores(query, k=k)
 
 
-def answer(query: str, k: int = 5):
-    results = search(query, k=k)
+# Stop words français basiques pour l'extraction de mots-clés
+STOP_WORDS = {
+    "le", "la", "les", "un", "une", "des", "du", "de", "de", "à", "au", "aux",
+    "et", "ou", "pour", "dans", "sur", "avec", "sans", "par", "est", "sont",
+    "ce", "cette", "ces", "mon", "ma", "mes", "ton", "ta", "tes", "son", "sa", "ses",
+    "je", "tu", "il", "elle", "nous", "vous", "ils", "elles",
+    "qui", "que", "quoi", "dont", "où", "comme", "mais", "donc", "or", "ni", "car",
+    "pas", "ne", "n", "m", "t", "s", "l", "d", "qu", "j",
+    "plus", "moins", "très", "trop", "bien", "mal",
+    "pièce", "de", "vie", "salle", "bain", "cuisine", "salon", "chambre",
+    "finition", "aspect", "effet", "carrelage", "modèle", "collection",
+}
+
+
+def extract_keywords(query: str):
+    """Extrait les mots-clés significatifs de la requête."""
+    import re
+    words = re.findall(r"[a-zàâäéèêëïîôöùûüç]+", query.lower())
+    return [w for w in words if len(w) >= 3 and w not in STOP_WORDS]
+
+
+def keyword_score(doc, keywords):
+    """Score = fraction de mots-clés présents dans la fiche (case-insensitive)."""
+    if not keywords:
+        return 0.0
+    content = doc.page_content.lower()
+    matched = sum(1 for kw in keywords if kw in content)
+    return matched / len(keywords)
+
+
+def rerank_hybrid(results, keywords, alpha=0.7):
+    """
+    Hybrid retrieval : combine score vectoriel (dense) et score mots-clés (sparse).
+    alpha = poids du score vectoriel, (1-alpha) = poids mots-clés.
+    """
+    scored = []
+    for doc, vec_score in results:
+        kw_score = keyword_score(doc, keywords)
+        final = alpha * vec_score + (1 - alpha) * kw_score
+        scored.append((doc, vec_score, kw_score, final))
+    scored.sort(key=lambda x: x[3], reverse=True)
+    return scored
+
+
+def search_hybrid(query: str, k_retrieve: int = 8, k_return: int = 3):
+    """Recherche hybride : retrieve large + reranking par mots-clés + vector."""
+    results = search(query, k=k_retrieve)
+    keywords = extract_keywords(query)
+    ranked = rerank_hybrid(results, keywords)
+    return [(d, s) for d, s, _, _ in ranked[:k_return]]
+
+
+def answer(query: str, k: int = 3):
+    results = search_hybrid(query, k_retrieve=8, k_return=k)
     docs = [d for d, _ in results]
     llm = ChatMistralAI(model="mistral-small-latest", temperature=0.3)
     prompt = ChatPromptTemplate.from_messages([
